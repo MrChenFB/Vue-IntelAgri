@@ -24,7 +24,8 @@
 </template>
 
 <script>
-import store from '../vuex/store'
+import store from '../store/store'
+import {loginIn, loignOut} from '../store/modules/UserModule'
 
 export default {
   name: "login",
